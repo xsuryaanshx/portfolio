@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suryansh Sharma — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-logo">S<span class="accent-dot">●</span>S</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="mailto:1923.suryansh@gmail.com" class="nav-hire">Open to Work ↗</a>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <canvas id="bgCanvas"></canvas>
+  <div class="hero-left">
+    <div class="hero-eyebrow">
+      <span class="eyebrow-pill">Available · Cassino, Italy</span>
+    </div>
+    <h1 class="hero-name">
+      <span class="hn-line" id="hn1">SURYANSH</span>
+      <span class="hn-line hollow" id="hn2">SHARMA</span>
+    </h1>
+    <p class="hero-sub">Customer Support Specialist &amp; Communication Expert</p>
+    <div class="hero-meta">
+      <span>C1 English · IELTS</span>
+      <span class="meta-div">|</span>
+      <span>BCA Graduate</span>
+      <span class="meta-div">|</span>
+      <span>MSc Student · Italy</span>
+    </div>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-fill">Get In Touch</a>
+      <a href="#experience" class="btn-outline">View Work ↓</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <canvas id="figureCanvas"></canvas>
+    <p class="figure-hint">scroll ↕ to interact</p>
+  </div>
+  <div class="hero-scroll-hint"><div class="scroll-dot"></div></div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-inner">
+    <span>Customer Support</span><span class="tx">✦</span>
+    <span>IELTS C1</span><span class="tx">✦</span>
+    <span>Data Annotation</span><span class="tx">✦</span>
+    <span>Cisco Certified</span><span class="tx">✦</span>
+    <span>Ethical Hacking</span><span class="tx">✦</span>
+    <span>Cybersecurity</span><span class="tx">✦</span>
+    <span>TCS Simulation</span><span class="tx">✦</span>
+    <span>Remote Ready</span><span class="tx">✦</span>
+    <span>Problem Solving</span><span class="tx">✦</span>
+    <span>Economics &amp; Entrepreneurship</span><span class="tx">✦</span>
+    <span>Customer Support</span><span class="tx">✦</span>
+    <span>IELTS C1</span><span class="tx">✦</span>
+    <span>Data Annotation</span><span class="tx">✦</span>
+    <span>Cisco Certified</span><span class="tx">✦</span>
+    <span>Ethical Hacking</span><span class="tx">✦</span>
+    <span>Cybersecurity</span><span class="tx">✦</span>
+    <span>TCS Simulation</span><span class="tx">✦</span>
+    <span>Remote Ready</span><span class="tx">✦</span>
+    <span>Problem Solving</span><span class="tx">✦</span>
+    <span>Economics &amp; Entrepreneurship</span><span class="tx">✦</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="sec-label">01 / About</div>
+    <div class="about-grid">
+      <div class="about-text-col">
+        <h2 class="sec-heading">I turn <em>frustrated<br/>customers</em> into<br/>loyal advocates.</h2>
+        <p class="body-text reveal">Customer-focused and communication-driven, I bring a calm, empathetic approach to every interaction. With C1 English (IELTS certified), data annotation expertise at TagX India, and a computer science background — I bridge technical clarity with human warmth.</p>
+        <p class="body-text reveal">Currently pursuing my Master's in Economics &amp; Entrepreneurship at the University of Cassino and Southern Lazio. Comfortable working in remote environments, managing multiple tasks efficiently, and maintaining clear, professional communication across all channels.</p>
+        <div class="stats reveal">
+          <div class="stat-item">
+            <div class="stat-top"><span class="stat-n" data-t="3">0</span></div>
+            <span class="stat-l">Languages</span>
+          </div>
+          <div class="stat-item">
+            <div class="stat-top"><span class="stat-n" data-t="7">0</span><span class="stat-u">+</span></div>
+            <span class="stat-l">Certifications</span>
+          </div>
+          <div class="stat-item">
+            <div class="stat-top"><span class="stat-n" data-t="100">0</span><span class="stat-u">%</span></div>
+            <span class="stat-l">Remote Ready</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-cards-col">
+        <div class="about-card reveal" style="--delay:0s">
+          <div class="ac-icon">🗣️</div>
+          <h4>C1 English</h4>
+          <p>IELTS certified — clear, professional written &amp; verbal communication.</p>
+        </div>
+        <div class="about-card reveal" style="--delay:0.1s">
+          <div class="ac-icon">🤝</div>
+          <h4>Empathy First</h4>
+          <p>Known for a calm, patient approach that turns problems into trust.</p>
+        </div>
+        <div class="about-card reveal" style="--delay:0.2s">
+          <div class="ac-icon">🌐</div>
+          <h4>Remote Native</h4>
+          <p>Fully equipped for async collaboration across time zones.</p>
+        </div>
+        <div class="about-card reveal" style="--delay:0.3s">
+          <div class="ac-icon">🔐</div>
+          <h4>Tech-Savvy</h4>
+          <p>BCA grad with cybersecurity certs — I speak both customer and tech.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section section-alt">
+  <div class="container">
+    <div class="sec-label">02 / Work Experience</div>
+    <h2 class="sec-heading center">Where I've <em>Worked</em></h2>
+    <div class="exp-list">
+      <div class="exp-item reveal">
+        <div class="exp-left">
+          <div class="exp-dot"></div>
+          <div class="exp-line"></div>
+        </div>
+        <div class="exp-right">
+          <span class="exp-period">Mar 2022 — Apr 2023</span>
+          <h3 class="exp-role">Data Annotation Specialist</h3>
+          <span class="exp-company">TagX India · Remote</span>
+          <ul class="exp-bullets">
+            <li>Performed text evaluation and data annotation following detailed project guidelines</li>
+            <li>Reviewed and refined content for grammatical, semantic, and contextual accuracy</li>
+            <li>Maintained high accuracy in fast-paced, deadline-driven environments</li>
+            <li>Ensured consistency and quality control across large datasets</li>
+          </ul>
+          <div class="exp-chips"><span>NLP Data</span><span>Text Evaluation</span><span>Quality Control</span><span>Fast-paced</span></div>
+        </div>
+      </div>
+      <div class="exp-item reveal">
+        <div class="exp-left">
+          <div class="exp-dot"></div>
+        </div>
+        <div class="exp-right">
+          <span class="exp-period">Ongoing</span>
+          <h3 class="exp-role">Customer Support Specialist</h3>
+          <span class="exp-company">Phone &amp; Remote Support · Client Communication</span>
+          <ul class="exp-bullets">
+            <li>Responded to customer inquiries in a clear and professional manner</li>
+            <li>Resolved issues efficiently while maintaining a positive customer experience</li>
+            <li>Handled multiple simultaneous interactions while staying organized and focused</li>
+            <li>Maintained accurate records and worked independently in remote environments</li>
+          </ul>
+          <div class="exp-chips"><span>Phone Support</span><span>Email &amp; Chat</span><span>CRM Tools</span><span>Conflict Resolution</span><span>Multitasking</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section">
+  <div class="container">
+    <div class="sec-label">03 / Education</div>
+    <h2 class="sec-heading center">My <em>Academic</em> Path</h2>
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <div class="edu-year">2025 → Present</div>
+        <div class="edu-badge">🎓</div>
+        <h3>MSc Economics &amp; Entrepreneurship</h3>
+        <p class="edu-school">University of Cassino and Southern Lazio</p>
+        <p class="edu-loc">📍 Cassino, Italy</p>
+        <p class="edu-desc">Expanding business intelligence, economic analysis, and entrepreneurial thinking. Actively improving Italian language alongside academics.</p>
+        <div class="edu-tags"><span>Economics</span><span>Entrepreneurship</span><span>Italy</span></div>
+      </div>
+      <div class="edu-card reveal" style="--delay:0.15s">
+        <div class="edu-year">Oct 2021 — May 2024</div>
+        <div class="edu-badge">💻</div>
+        <h3>Bachelor of Science — Computer Applications</h3>
+        <p class="edu-school">Modi Institute of Management &amp; Technology</p>
+        <p class="edu-loc">📍 India</p>
+        <p class="edu-desc">Built a strong technical foundation in programming, computer systems, and applications — enabling confident handling of CRM platforms and technical queries.</p>
+        <div class="edu-tags"><span>BCA</span><span>Computer Applications</span><span>Programming</span></div>
+      </div>
+      <div class="edu-card reveal" style="--delay:0.3s">
+        <div class="edu-year">Completed Mar 2020</div>
+        <div class="edu-badge">📚</div>
+        <h3>High School Diploma</h3>
+        <p class="edu-school">Laurels School International</p>
+        <p class="edu-loc">📍 India</p>
+        <p class="edu-desc">Strong foundational education cultivating analytical thinking, communication, and discipline.</p>
+        <div class="edu-tags"><span>Diploma</span><span>International</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section section-alt">
+  <div class="container">
+    <div class="sec-label">04 / Skills</div>
+    <h2 class="sec-heading center">What I <em>Bring</em></h2>
+    <div class="skills-container">
+      <div class="skills-col">
+        <h4 class="skills-cat-title reveal">Professional Skills</h4>
+        <div class="skill-bars">
+          <div class="skill-row reveal"><span class="sk-name">Customer Support</span><div class="sk-track"><div class="sk-fill" data-w="92"></div></div><span class="sk-pct">92%</span></div>
+          <div class="skill-row reveal"><span class="sk-name">Phone Communication</span><div class="sk-track"><div class="sk-fill" data-w="90"></div></div><span class="sk-pct">90%</span></div>
+          <div class="skill-row reveal"><span class="sk-name">Active Listening</span><div class="sk-track"><div class="sk-fill" data-w="95"></div></div><span class="sk-pct">95%</span></div>
+          <div class="skill-row reveal"><span class="sk-name">Problem Solving</span><div class="sk-track"><div class="sk-fill" data-w="88"></div></div><span class="sk-pct">88%</span></div>
+          <div class="skill-row reveal"><span class="sk-name">Empathy &amp; De-escalation</span><div class="sk-track"><div class="sk-fill" data-w="94"></div></div><span class="sk-pct">94%</span></div>
+          <div class="skill-row reveal"><span class="sk-name">Data Annotation / QA</span><div class="sk-track"><div class="sk-fill" data-w="85"></div></div><span class="sk-pct">85%</span></div>
+          <div class="skill-row reveal"><span class="sk-name">Multitasking</span><div class="sk-track"><div class="sk-fill" data-w="89"></div></div><span class="sk-pct">89%</span></div>
+          <div class="skill-row reveal"><span class="sk-name">CRM Tools</span><div class="sk-track"><div class="sk-fill" data-w="75"></div></div><span class="sk-pct">75%</span></div>
+        </div>
+      </div>
+      <div class="skills-col">
+        <h4 class="skills-cat-title reveal">Technical &amp; Tools</h4>
+        <div class="skill-tags-grid">
+          <div class="stag reveal"><span class="stag-icon">🔐</span><span class="stag-name">Cybersecurity</span><span class="stag-sub">Cisco · EC-Council · OWASP</span></div>
+          <div class="stag reveal"><span class="stag-icon">🌐</span><span class="stag-name">Networking</span><span class="stag-sub">Cisco Certified</span></div>
+          <div class="stag reveal"><span class="stag-icon">🤖</span><span class="stag-name">AI Tools</span><span class="stag-sub">Claude 101 · Anthropic</span></div>
+          <div class="stag reveal"><span class="stag-icon">💻</span><span class="stag-name">Computer Applications</span><span class="stag-sub">BCA Graduate</span></div>
+          <div class="stag reveal"><span class="stag-icon">📊</span><span class="stag-name">MS Office Suite</span><span class="stag-sub">Word · Excel · PowerPoint</span></div>
+          <div class="stag reveal"><span class="stag-icon">🔧</span><span class="stag-name">Remote Tools</span><span class="stag-sub">Slack · Zoom · Email</span></div>
+        </div>
+        <h4 class="skills-cat-title reveal" style="margin-top:2.5rem">Languages</h4>
+        <div class="lang-bars">
+          <div class="lang-row reveal">
+            <div class="lang-info"><span class="lang-name">English</span><span class="lang-level">C1 · IELTS Certified</span></div>
+            <div class="lang-dots"><span class="ld full"></span><span class="ld full"></span><span class="ld full"></span><span class="ld full"></span><span class="ld half"></span></div>
+          </div>
+          <div class="lang-row reveal">
+            <div class="lang-info"><span class="lang-name">Hindi</span><span class="lang-level">Native</span></div>
+            <div class="lang-dots"><span class="ld full"></span><span class="ld full"></span><span class="ld full"></span><span class="ld full"></span><span class="ld full"></span></div>
+          </div>
+          <div class="lang-row reveal">
+            <div class="lang-info"><span class="lang-name">Italian</span><span class="lang-level">Basic · Improving</span></div>
+            <div class="lang-dots"><span class="ld full"></span><span class="ld half"></span><span class="ld empty"></span><span class="ld empty"></span><span class="ld empty"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="section">
+  <div class="container">
+    <div class="sec-label">05 / Certifications</div>
+    <h2 class="sec-heading center">Credentials &amp; <em>Certs</em></h2>
+    <p class="cert-intro reveal">Continuously upskilling — from AI to cybersecurity to networking.</p>
+    <div class="certs-grid">
+      <div class="cert-card reveal" style="--delay:0s">
+        <div class="cert-logo anthropic">AI</div>
+        <div class="cert-body">
+          <h4>Certificate of Completion: Claude 101</h4>
+          <span class="cert-issuer">Anthropic</span>
+          <span class="cert-date">Issued Mar 2026</span>
+          <span class="cert-id">ID: vhsrqkrs37cw</span>
+        </div>
+        <div class="cert-badge new">2026</div>
+      </div>
+      <div class="cert-card reveal" style="--delay:0.08s">
+        <div class="cert-logo cisco">CI</div>
+        <div class="cert-body">
+          <h4>Cyber Threat Management</h4>
+          <span class="cert-issuer">Cisco</span>
+          <span class="cert-date">Issued Feb 2024</span>
+        </div>
+        <div class="cert-badge">2024</div>
+      </div>
+      <div class="cert-card reveal" style="--delay:0.16s">
+        <div class="cert-logo tcs">TCS</div>
+        <div class="cert-body">
+          <h4>Cybersecurity Analyst Job Simulation</h4>
+          <span class="cert-issuer">Tata Consultancy Services via Forage</span>
+          <span class="cert-date">Issued Jan 2024</span>
+          <span class="cert-id">ID: TsvSzdXhnN39A3BHT</span>
+        </div>
+        <div class="cert-badge">2024</div>
+      </div>
+      <div class="cert-card reveal" style="--delay:0.24s">
+        <div class="cert-logo ec">EC</div>
+        <div class="cert-body">
+          <h4>Ethical Hacking Essentials (EHE)</h4>
+          <span class="cert-issuer">EC-Council</span>
+          <span class="cert-date">Issued Jan 2024</span>
+          <span class="cert-id">ID: 287167</span>
+        </div>
+        <div class="cert-badge">2024</div>
+      </div>
+      <div class="cert-card reveal" style="--delay:0.32s">
+        <div class="cert-logo owasp">OW</div>
+        <div class="cert-body">
+          <h4>OWASP API Security Top 10</h4>
+          <span class="cert-issuer">APIsec University</span>
+          <span class="cert-date">Issued Jan 2024</span>
+        </div>
+        <div class="cert-badge">2024</div>
+      </div>
+      <div class="cert-card reveal" style="--delay:0.4s">
+        <div class="cert-logo cisco">CI</div>
+        <div class="cert-body">
+          <h4>Networking Basics</h4>
+          <span class="cert-issuer">Cisco</span>
+          <span class="cert-date">Issued Dec 2023</span>
+        </div>
+        <div class="cert-badge">2023</div>
+      </div>
+      <div class="cert-card reveal" style="--delay:0.48s">
+        <div class="cert-logo cisco">CI</div>
+        <div class="cert-body">
+          <h4>Introduction to Cybersecurity</h4>
+          <span class="cert-issuer">Cisco</span>
+          <span class="cert-date">Issued Nov 2023</span>
+        </div>
+        <div class="cert-badge">2023</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section section-alt">
+  <div class="container">
+    <div class="sec-label">06 / Contact</div>
+    <div class="contact-layout">
+      <div class="contact-left">
+        <h2 class="sec-heading">Let's build<br/>something<br/><em>great.</em></h2>
+        <p class="body-text reveal">Open to customer support roles, remote opportunities, and communication-heavy positions. Let's talk.</p>
+        <div class="contact-items">
+          <a href="mailto:1923.suryansh@gmail.com" class="contact-item reveal"><div class="ci-label">Email</div><div class="ci-val">1923.suryansh@gmail.com</div></a>
+          <a href="tel:+393510793166" class="contact-item reveal"><div class="ci-label">Phone</div><div class="ci-val">+39 3510793166</div></a>
+          <a href="https://www.linkedin.com/in/xsuryanshx/" target="_blank" rel="noopener" class="contact-item reveal"><div class="ci-label">LinkedIn</div><div class="ci-val">linkedin.com/in/xsuryanshx</div></a>
+          <div class="contact-item reveal no-link"><div class="ci-label">Location</div><div class="ci-val">Cassino, Italy · Open to relocation</div></div>
+        </div>
+      </div>
+      <div class="contact-right reveal">
+        <a href="mailto:1923.suryansh@gmail.com" class="big-email-btn">
+          <span class="beb-text">Send Email</span>
+          <span class="beb-arrow">→</span>
+        </a>
+        <div class="availability-badge">
+          <span class="avail-dot"></span>
+          Available for new opportunities
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner container">
+    <span class="footer-logo">S<span class="accent-dot">●</span>S</span>
+    <span class="footer-copy">© 2025 Suryansh Sharma</span>
+    <div class="footer-links">
+      <a href="mailto:1923.suryansh@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/xsuryanshx/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/figure.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
