@@ -9,10 +9,34 @@
   const cursor = document.getElementById('cursor');
   const ring   = document.getElementById('cursorRing');
   let mx = 0, my = 0, rx = 0, ry = 0;
+  let cursorInitialized = false;
+
+  if (cursor) cursor.style.opacity = '0';
+  if (ring) ring.style.opacity = '0';
 
   document.addEventListener('mousemove', e => {
     mx = e.clientX; my = e.clientY;
-    if (cursor) { cursor.style.left = mx + 'px'; cursor.style.top = my + 'px'; }
+    if (cursor) {
+      cursor.style.left = mx + 'px';
+      cursor.style.top = my + 'px';
+      if (!cursorInitialized) {
+        cursor.style.opacity = '1';
+        if (ring) ring.style.opacity = '1';
+        cursorInitialized = true;
+      }
+    }
+  });
+
+  document.addEventListener('mouseleave', () => {
+    if (cursor) cursor.style.opacity = '0';
+    if (ring) ring.style.opacity = '0';
+  });
+
+  document.addEventListener('mouseenter', () => {
+    if (cursorInitialized) {
+      if (cursor) cursor.style.opacity = '1';
+      if (ring) ring.style.opacity = '1';
+    }
   });
 
   (function loopRing() {
